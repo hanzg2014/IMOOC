@@ -1,0 +1,13 @@
+#container{
+	background:#ddd;
+	width:500px;
+	height:250px;
+	border:1px solid pink;
+} 
+
+/*給path標識符添加style*/
+path{
+	fill: none;
+    stroke: steelblue;
+    stroke-width: 2;
+}

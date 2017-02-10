@@ -1,0 +1,20 @@
+#container{
+	background:#ddd;
+	width:500px;
+	height:250px;
+	border:1px solid pink;
+} 
+
+
+
+/*給path標識符添加style*/
+path{
+	fill: none;
+    stroke: steelblue;
+    stroke-width: 2;
+}
+
+.domain, .tick line{	/* 更改 domain 和 tick 下面的 line屬性*/
+	stroke:gray;
+	stroke-width:1;
+}
